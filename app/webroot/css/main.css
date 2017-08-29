@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'techno';
+	src: url('fonts/technolin/TECHNOLIN.eot');
+	src: local('☺2'), url('fonts/technolin/TECHNOLIN.woff') format('woff'), url('fonts/technolin/TECHNOLIN.ttf') format('truetype'), url('fonts/technolin/TECHNOLIN.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'furore';
+	src: url('fonts/Furore/Furore.eot');
+	src: local('☺2'), url('fonts/Furore/Furore.woff') format('woff'), url('fonts/Furore/Furore.ttf') format('truetype'), url('fonts/Furore/Furore.svg') format('svg');
+}
+
+body{
+	background-color:#e6ffe6;
+}
+
+.btn-topnav{
+	background-color:#4DAF2E;
+	border:1px solid black;
+	font-family:furore;
+	font-size:20px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.btn-topnav:hover{
+	background-color:#3e8d25;
+	border:2px solid black;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.navbar{
+	background-color:#377DB0;
+	border-color:black;
+	margin-bottom:0px;
+	border-radius:0px;
+}
+
+#navbar li { border-right: 1px solid gray }
+#navbar li:last-child { border-right : none}
+
+@media (max-width: 768px){
+  #navbar li { border: none }
+}
+@media (min-width: 769px){
+  #navbar { margin-left: 50px }
+}
+
+.navbar-nav{
+	background-color:#46a12b;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+	background-color:#377DB0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:white;
+}
+
+.navbar-span {
+  align-items: center;
+  color:yellow;
+  display: inline-flex;
+  font-family:furore;
+  font-size:23px;
+  min-height: 50px;
+  width:100%;
+}
+
+.pull-right>a{
+	margin-right:5px;
+}
